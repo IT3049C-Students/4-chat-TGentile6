@@ -15,7 +15,17 @@
 
     <body>
         <header>
-
+            <div class="jumbotron">
+                <h1 class="display-4">IT-3049C Chat</h1>
+            </div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">
+                        <i class="fas fa-user"></i>
+                    </span>
+                </div>
+                <input id="my-name-input" type="text" class="form-control" placeholder="Name" value="Tony Gentile">
+              </div>
         </header>
 
         <div id="chat">
@@ -23,7 +33,19 @@
         </div>
         
         <footer>
-
+            <div id="chatbar" class="input-group mb-3">
+                <input
+                    type="text"
+                    id="my-message"
+                    class="form-control"
+                    placeholder="Type a message ...">
+                <div class="input-group-append">
+                    <button
+                        class="btn btn-outline-primary"
+                        id="send-button"
+                        type="button">Send</button>
+                </div>
+            </div>
         </footer>
         <!-- Our own Scripts -->
         <script src="resources/js/index.js"></script>
