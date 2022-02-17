@@ -1,5 +1,3 @@
-<<<<<<< Updated upstream
-=======
 const nameInput = document.getElementById("my-name-input");
 const myMessage = document.getElementById("my-message");
 const sendButton = document.getElementById("send-button");
@@ -120,4 +118,3 @@ saveButton.addEventListener("click", function(saveButtonClickEvent) {
     saveButtonClickEvent.preventDefault();
     saveUsername();
   });
->>>>>>> Stashed changes
