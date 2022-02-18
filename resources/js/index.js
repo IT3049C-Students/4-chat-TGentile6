@@ -93,7 +93,9 @@ function disableMessage() {
 }
 
 function enableMessage(){
-    myMessage.removeAttribute("disabled");
+    if(myMessage.hasAttribute("disabled")){
+        myMessage.removeAttribute("disabled");
+    }
 }
 
 function saveUsername() {
